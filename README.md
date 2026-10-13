@@ -30,19 +30,16 @@ Vào trang **[Releases](https://github.com/minhnt152/kufcad-releases/releases/la
 
 | Hệ điều hành | File | Yêu cầu |
 |---|---|---|
-| **Windows** (bộ cài) | `KufCad-vX.Y-Windows-x64-Setup.exe` | Windows 10/11 64-bit, card đồ hoạ hỗ trợ DirectX 12 / Vulkan / OpenGL |
-| **Windows** (bản giải nén) | `KufCad-vX.Y-Windows-x64.zip` | Windows 10/11 64-bit, card đồ hoạ hỗ trợ DirectX 12 / Vulkan / OpenGL |
+| **Windows** | `KufCad-vX.Y-Windows-x64-Setup.exe` | Windows 10/11 64-bit, card đồ hoạ hỗ trợ DirectX 12 / Vulkan / OpenGL |
 | **macOS** | `KufCad-vX.Y-macOS-universal.zip` | macOS 11 trở lên, Apple Silicon hoặc Intel |
 
 Mỗi bản phát hành kèm file `SHA256SUMS.txt` để kiểm tra file tải về.
 
 ### Cài đặt trên Windows
 
-**Bộ cài (khuyên dùng):** chạy `KufCad-vX.Y-Windows-x64-Setup.exe` và làm theo hướng dẫn. Không cần quyền admin;
+Chạy `KufCad-vX.Y-Windows-x64-Setup.exe` và làm theo hướng dẫn. Không cần quyền admin;
 KufCad được cài vào `%LOCALAPPDATA%\Programs\KufCad`, có lối tắt ở Start Menu / Desktop và gỡ được trong
 **Settings ▸ Apps**.
-
-**Bản giải nén:** giải nén file `.zip` vào thư mục bất kỳ rồi chạy `KUFCAD.exe`.
 
 Windows SmartScreen có thể cảnh báo (bản chưa ký số): bấm **More info ▸ Run anyway**.
 
@@ -86,8 +83,8 @@ Windows SmartScreen có thể cảnh báo (bản chưa ký số): bấm **More i
 
 **Download:** grab the latest build from **[Releases](https://github.com/minhnt152/kufcad-releases/releases/latest)**.
 
-- **Windows 10/11 x64:** run the installer `KufCad-vX.Y-Windows-x64-Setup.exe` (per-user, no admin rights needed),
-  or unzip `KufCad-vX.Y-Windows-x64.zip` and run `KUFCAD.exe`. If SmartScreen warns, click **More info ▸ Run anyway**.
+- **Windows 10/11 x64:** run the installer `KufCad-vX.Y-Windows-x64-Setup.exe` (per-user, no admin rights needed).
+  If SmartScreen warns, click **More info ▸ Run anyway**.
 - **macOS 11+ (Apple Silicon & Intel):** unzip `KufCad-vX.Y-macOS-universal.zip`, move **KufCad.app** to Applications,
   then right-click ▸ **Open** the first time (the app is not yet notarized). If macOS says the app is damaged,
   run `xattr -cr /Applications/KufCad.app`.
